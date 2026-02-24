@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson Yards Wellness | Visionary Performance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; background-color: #f8f7f5; color: #1a1a1a; }
+        h1, h2, .serif { font-family: 'Playfair Display', serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="flex justify-between items-center px-12 py-8 fixed w-full z-50 text-white bg-gradient-to-b from-black/50 to-transparent">
+        <div class="text-2xl tracking-widest font-semibold italic">M / A / J</div>
+        <div class="hidden md:flex space-x-12 text-sm uppercase tracking-widest">
+            <a href="#spa" class="hover:opacity-70 transition">The Spa</a>
+            <a href="#studio" class="hover:opacity-70 transition">The Studio</a>
+            <a href="#recovery" class="hover:opacity-70 transition">The Recovery Suite</a>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-screen flex flex-col justify-center items-center text-center text-white px-6">
+        <h1 class="text-5xl md:text-7xl mb-6 italic">A Record Across Excellence</h1>
+        <p class="max-w-2xl text-lg md:text-xl font-light tracking-wide leading-relaxed">
+            Facilitated for the modern titan. An extensive ecosystem of longevity and performance utilizing the highest standards of the industry.
+        </p>
+        <div class="mt-12 flex space-x-6">
+            <button class="px-8 py-3 bg-white text-black text-sm uppercase tracking-widest hover:bg-black hover:text-white transition">Explore the Suites</button>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6 py-24 space-y-48">
+
+        <section id="spa" class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <span class="text-sm uppercase tracking-widest opacity-50">01 — Sanctuary</span>
+                <h2 class="text-4xl md:text-5xl">The Hudson Spa</h2>
+                <p class="text-lg leading-relaxed opacity-80">
+                    Directed toward profound restoration. Our spa environment has been innovated to provide mental clarity, leveraging natural stone and panoramic skyline views to facilitate a state of total stillness.
+                </p>
+            </div>
+            <div class="h-[500px] bg-neutral-200">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=2070" class="w-full h-full object-cover shadow-2xl" alt="Luxury Spa">
+            </div>
+        </section>
+
+        <section id="studio" class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="h-[500px] bg-neutral-200 order-last md:order-first">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=2070" class="w-full h-full object-cover shadow-2xl" alt="Pilates Studio">
+            </div>
+            <div class="space-y-6">
+                <span class="text-sm uppercase tracking-widest opacity-50">02 — Movement</span>
+                <h2 class="text-4xl md:text-5xl">The Pilates Studio</h2>
+                <p class="text-lg leading-relaxed opacity-80">
+                    Utilizing advanced biomechanics to build an ultra-fit foundation. Spearheaded by elite instructors, the studio offers an extensive range of modalities designed for physical mastery.
+                </p>
+            </div>
+        </section>
+
+        <section id="recovery" class="grid md:grid-cols-2 gap-16 items-center text-white bg-zinc-900 p-12 shadow-2xl">
+            <div class="space-y-6">
+                <span class="text-sm uppercase tracking-widest text-red-500">03 — Biohacking</span>
+                <h2 class="text-4xl md:text-5xl">The Recovery Suite</h2>
+                <p class="text-lg leading-relaxed opacity-70">
+                    Leveraging the latest in longevity science. From cryotherapy to red light therapy, we have innovated a suite dedicated to the detailed optimization of the human system.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="h-64 bg-zinc-800"></div>
+                <div class="h-64 bg-zinc-800"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-24 border-t border-neutral-200 text-center">
+        <div class="text-2xl italic mb-8">M / A / J</div>
+        <p class="text-sm uppercase tracking-widest opacity-40">&copy; 2026 Hudson Yards. All Rights Facilitated.</p>
+    </footer>
+
+</body>
+</html>
